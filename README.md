@@ -34,3 +34,7 @@ com.holybell.org.spring.util.AnnotationConfigBeanFactory : 模拟Spring通过扫
 
 1.5 最后，通过 AnnotationConfigApplicationContext 可以正常的获取到 cardDao 名称的代理对象
     com.holybell.demo.genmapper.service.CardService 也成功的Autowired了这个对象
+    
+2. com.holybell.demo.import_demo.MyImportSelector
+
+    模拟在Bean的生命周期中，替换Spring实例化的bean对象，使用生成的动态代理对象替换。
