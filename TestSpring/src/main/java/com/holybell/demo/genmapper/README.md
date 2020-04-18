@@ -1,0 +1,4 @@
+查看 Mybatis配置Mapper的XML截图.png
+
+Myabits配置Mapper的时候，也是使用 MapperFactoryBean 这个FactoryBean，
+MapperFactoryBean 持有一个要生成代理对象的class成员属性 ： mapperInterface，Mybatis通过解析这个class属性反射生成代理对象
