@@ -11,6 +11,7 @@
         <module>proxyCustom</module>
         <module>AopDemo</module>
         <module>MockSpring</module>
+        <module>TestSpring</module>
     </modules>
     <packaging>pom</packaging>
 
