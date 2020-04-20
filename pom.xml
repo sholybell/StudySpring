@@ -12,6 +12,8 @@
         <module>AopDemo</module>
         <module>MockSpring</module>
         <module>TestSpring</module>
+        <module>SpringLog</module>
+        <module>TestMybatis</module>
     </modules>
     <packaging>pom</packaging>
 

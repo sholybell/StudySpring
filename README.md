@@ -38,3 +38,7 @@ com.holybell.org.spring.util.AnnotationConfigBeanFactory : 模拟Spring通过扫
 2. com.holybell.demo.import_demo.MyImportSelector
 
     模拟在Bean的生命周期中，替换Spring实例化的bean对象，使用生成的动态代理对象替换。
+    
+3. com.holybell.demo.configuration.config.Config
+
+    测试Spring中配置类标注@Configuration与否的区别
